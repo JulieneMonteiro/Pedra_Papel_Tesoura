@@ -1,6 +1,6 @@
 # ✊✋✌ Pedra, Papel e Tesoura
 
-Um jogo simples de Pedra, Papel e Tesoura desenvolvido com HTML, CSS e JavaScript. Ideal para praticar lógica de programação e manipulação de DOM no navegador.
+Desenvolvi esse jogo clássico como parte do meu processo de aprendizado em desenvolvimento de software, explorando lógica de programação, modularização e interação com o usuário.
 
 ## 🎮 Como jogar
 
@@ -11,9 +11,9 @@ Um jogo simples de Pedra, Papel e Tesoura desenvolvido com HTML, CSS e JavaScrip
 
 ## 🔧 Tecnologias utilizadas
 
-- HTML5
-- CSS3
-- JavaScript (puro, sem frameworks)
+- Python 3
+- tkinter para a interface gráfica
+- Arquitetura modular com scripts separados para lógica (engine.py), interface (gui.py) e funções auxiliares (utils.py)
 
 ## 🖼️ Interface
 
@@ -34,15 +34,10 @@ Um jogo simples de Pedra, Papel e Tesoura desenvolvido com HTML, CSS e JavaScrip
 
 ## 📁 Estrutura do projeto
  
-Pedra_Papel_Tesoura/
-
-│
-
-├── index.html         # Estrutura da página
-
-├── style.css          # Estilização do jogo
-
-└── script.js          # Lógica do jogo
+- engine.py: responsável pela lógica do jogo, regras e resultado entre o jogador e a máquina.
+- gui.py: interface gráfica com botões e feedback visual, construída com tkinter.
+- utils.py: funções de apoio e organização de constantes.
+- main.py: ponto de entrada da aplicação, executando a interface.
 
 
 
@@ -54,18 +49,15 @@ Jogadas aleatórias para o computador
 
 Exibição do resultado de cada rodada
 
-Estilo responsivo (se aplicável)
+
 
  ## 🧠 Aprendizados
 Este projeto foi uma ótima oportunidade para praticar:
 
-Manipulação de elementos HTML com JavaScript
+Criar um exemplo funcional e bem estruturado para o meu portfólio
 
-Lógica condicional
+Aplicando boas práticas de separação de responsabilidades e reforçando minha fluência com Python em projetos gráficos e interativos.
 
-Interatividade com o usuário
-
-Animações e estilização com CSS
 
 ## 🙋‍♀️ Autora
 
