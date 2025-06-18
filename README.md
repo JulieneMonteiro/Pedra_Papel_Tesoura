@@ -29,7 +29,7 @@ Desenvolvi esse jogo clássico como parte do meu processo de aprendizado em dese
    ```bash
    cd Pedra_Papel_Tesoura
 
-3. Abra o arquivo index.html no seu navegador.
+3. Abra o arquivo gui.py.
    
 
 ## 📁 Estrutura do projeto
